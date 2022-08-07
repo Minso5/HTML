@@ -1,5 +1,5 @@
 .container {
-    background-color: #ffd900;
+    background-color: #fbe71e;
     border: 1px solid #cccccc;
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
     border-radius: 20px;
@@ -22,7 +22,7 @@
 div>div>.button {
     height: 75px;
     padding: 5px;
-    background-color: rgb(243, 241, 119);
+    background-color: #f9ec81;
     border-radius: 50%;
     border: 1px solid #f0ed5a;
     background-color: color; 
@@ -34,50 +34,57 @@ div>div>.button {
 }
 
 .button:hover {
-    background-color: #f5e234;
+    background-color: #f3e13d;
 }
 
 .operator {
     height: 75px;
     padding: 5px;
+    background-color: #f3d01b;
     border-radius: 50%;
+    border: 1px solid #f1d02d;
     color: #fff;
-    background-color: #eebb24;
     font-size: 2rem;
 }
 
+.operator:hover {
+    background-color: #fbbd02;
+}
+
 .clear {
-    background-color: #f0595f;
-    border-color: #b0353a;
+    background-color: #f1202e;
+    border-color: #d12127;
     color: #fff;
+    border-radius: 5%;
     width: 80px;
     height: 30px;
 }
 
 .clear:hover {
-    background-color: #f17377;
+    background-color: #f54652;
 }
 
 div>div>.equal-sign {
-    background-color: rgb(248, 194, 78);
-    border-color: #eed64f;
+    background-color: #e96a1b;
+    border-color: #e66f25;
     color: #fff;
 }
 
 .equal-sign:hover {
-    background-color: #f7a62e;
+    background-color: #ff4203;
 }
 
 .screen {
-    background-color: rgb(171, 219, 231);
+    background-color: #c4c4c2;
     justify-content: left;
     color: black;
+    border: 1px solid #8d8d8c;
+    border-radius: 7%;
     font-size: medium;
     width: 50%;
     height: 30%;
     cursor: default;
     padding: 10px;
     padding-left: 40%;
-    margin: auto;
-    margin-bottom: 10px;
+    margin: 5px 5px 10px 5px;
 }
